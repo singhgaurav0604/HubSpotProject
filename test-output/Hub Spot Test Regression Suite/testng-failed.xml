@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Hub Spot Test Regression Suite]">
+<suite verbose="3" name="Failed suite [Hub Spot Test Regression Suite]">
   <listeners>
     <listener class-name="com.qa.Hubspot.listeners.TestAllureListener"/>
   </listeners>
-  <test thread-count="5" verbose="3" name="Hub Spot Functional Regression Test(failed)">
+  <test name="Hub Spot Functional Regression Test(failed)">
     <classes>
-      <class name="com.qa.Hubspot.tests.LoginPageTest">
+      <class name="com.qa.Hubspot.tests.HomePageTest">
         <methods>
-          <include name="verifyLoginPageTitleTest"/>
-          <include name="tearDown"/>
+          <include name="verifyHomePgageTitleTest"/>
+          <include name="getUserNameTest"/>
           <include name="setUP"/>
+          <include name="verifyHomePageHeaderTest"/>
         </methods>
-      </class> <!-- com.qa.Hubspot.tests.LoginPageTest -->
+      </class> <!-- com.qa.Hubspot.tests.HomePageTest -->
     </classes>
   </test> <!-- Hub Spot Functional Regression Test(failed) -->
 </suite> <!-- Failed suite [Hub Spot Test Regression Suite] -->

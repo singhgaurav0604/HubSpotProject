@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.Hubspot.tests.LoginPageTest">
+      <class name="com.qa.Hubspot.tests.HomePageTest">
         <methods>
-          <include name="verifyLoginPageTitleTest"/>
-          <include name="tearDown"/>
+          <include name="verifyHomePgageTitleTest"/>
+          <include name="getUserNameTest"/>
           <include name="setUP"/>
+          <include name="verifyHomePageHeaderTest"/>
         </methods>
-      </class> <!-- com.qa.Hubspot.tests.LoginPageTest -->
+      </class> <!-- com.qa.Hubspot.tests.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
