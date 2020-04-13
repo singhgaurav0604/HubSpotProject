@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 36.29 sec <<< FAILURE!
+verifyLoginPageTitleTest(com.qa.Hubspot.tests.LoginPageTest)  Time elapsed: 8.34 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Reports dashboard] but found [HubSpot Login]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.qa.Hubspot.tests.LoginPageTest.verifyLoginPageTitleTest(LoginPageTest.java:49)
+
