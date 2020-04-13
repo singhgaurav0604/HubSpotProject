@@ -10,7 +10,15 @@
   </listeners>  
 
 
-  <test name="Hub Spot Functional Regression Test">
+  <test name="Hub Spot Functional Regression Test- FF">
+
+     	<classes>
+		<!-- 	    <class name="com.qa.Hubspot.tests.LoginPageTest" /> -->
+         		<class name="com.qa.Hubspot.tests.HomePageTest" /> 
+ 		</classes>
+	</test>
+
+   <test name="Hub Spot Functional Regression Test- chrome">
 
      	<classes>
 		<!-- 	    <class name="com.qa.Hubspot.tests.LoginPageTest" /> -->
