@@ -3,17 +3,17 @@
 
 <suite name="Hub Spot Test Regression Suite" verbose="3">
 
-<listeners>
+<!-- <listeners> -->
 <!--   <listener class-name="com.qa.Hubspot.listeners.ExtentReportListener" /> -->
   
-  <listener class-name="com.qa.Hubspot.listeners.TestAllureListener" /> 
-  </listeners>  
+<!--  <listener class-name="com.qa.Hubspot.listeners.TestAllureListener" /> -->
+<!--  </listeners>  -->
 
 
   <test name="Hub Spot Functional Regression Test">
 
      	<classes>
-		<!-- 	    <class name="com.qa.Hubspot.tests.LoginPageTest" /> -->
+			    <class name="com.qa.Hubspot.tests.LoginPageTest" /> 
          		<class name="com.qa.Hubspot.tests.HomePageTest" /> 
  		</classes>
 	</test>
