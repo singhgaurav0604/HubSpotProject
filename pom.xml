@@ -76,7 +76,7 @@
 
 					<suiteXmlFiles>
 
-						<suiteXmlFile>src/test/resources/testrunners/testng_Regression.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/testrunners/testNG.xml</suiteXmlFile>
 
 					</suiteXmlFiles>
 
